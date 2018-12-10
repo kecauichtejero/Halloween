@@ -5,10 +5,7 @@ void setup() {
   img = loadImage("halloween.png");
   image(img, 0, 0,width,height);
 }
-void draw()
-{
-  save("PADILLA.Halloween.png");
-}
+
 void mouseDragged()
 {
   blendMode(OVERLAY);
