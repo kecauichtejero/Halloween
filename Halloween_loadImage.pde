@@ -1,9 +1,9 @@
-PImage img;
+PImage halloween;
 
 void setup() {
   size(1200, 600);
-  img = loadImage("halloween.png");
-  image(img, 0, 0,width,height);
+  halloween = loadImage("halloween.png");
+  image(halloween, 0, 0,width,height);
 }
 
 void mouseDragged()
