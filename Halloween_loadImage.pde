@@ -6,7 +6,7 @@ void setup() {
   image(halloween, 0, 0,width,height);
   /* @pjs preload="ghost.png" */
 }
-
+void draw(){}
 void mouseDragged()
 {
   blendMode(OVERLAY);
