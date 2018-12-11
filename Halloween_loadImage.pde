@@ -2,9 +2,9 @@ PImage halloween;
 
 void setup() {
   size(1200, 600);
-  halloween = loadImage("halloween.png");
+  halloween = loadImage("ghost.png");
   image(halloween, 0, 0,width,height);
-  /* @pjs preload="halloween.png" */
+  /* @pjs preload="ghost.png" */
 }
 
 void mouseDragged()
